@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+body {
+    background-image: url(/img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #a277d4;
+
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+
+html, body, .container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/fonts/icomoon/icomoon.eot?5wgyrv');
+    src:    url('/fonts/icomoon/icomoon.eot?5wgyrv#iefix') format('embedded-opentype'),
+        url('/fonts/icomoon/icomoon.ttf?5wgyrv') format('truetype'),
+        url('/fonts/icomoon/icomoon.woff?5wgyrv') format('woff'),
+        url('/fonts/icomoon/icomoon.svg?5wgyrv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-community-national:before {
+    content: "\e904";
+}
+.icon-community-local:before {
+    content: "\e905";
+}
+.icon-community-europe:before {
+    content: "\e906";
+}
+.icon-community-ireland:before {
+    content: "\e907";
+}
+.icon-p-outline:before {
+    content: "\e901";
+}
+.icon-p-logo:before {
+    content: "\e902";
+}
+.icon-poleeto:before {
+    content: "\e903";
+}
+.icon-ballotbox:before {
+    content: "\e900";
+}
